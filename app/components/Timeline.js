@@ -69,7 +69,7 @@ class Timeline extends Component {
         <div className='site-wrapper-inner timeline-inner'>
           <div className='container site-container'>
             <div className='page-header'>
-              <h1 id='timeline'>History of Gen.Chat</h1>
+              <h1 id='timeline'>Cabo 2018</h1>
             </div>
             <ul id='History-timeline' className='col-md-push-2 col-md-8 timeline'>
               <span id='SortTimeline' className='sort-icon glyphicon glyphicon-chevron-down' onClick={this.handleSortClick} />

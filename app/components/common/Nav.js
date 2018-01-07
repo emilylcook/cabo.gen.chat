@@ -35,7 +35,7 @@ class Nav extends Component {
       <div className='masthead clearfix'>
         <div className='inner'>
           <Link to='/' className='nav__logo-wrapper' onClick={this._clearError}>
-            <h3 className='masthead-brand'>Gen.Chat</h3>
+            <h3 className='masthead-brand'>Home</h3>
           </Link>
           <nav className='nav masthead-nav'>
             {navButtons}

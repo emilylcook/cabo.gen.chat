@@ -63,7 +63,7 @@ input, select{
 
 html,body {
   height: 100%;
-  background: url(../public/images/home-background.png) no-repeat center center fixed;
+  background: url(../public/images/cabobackground.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,6 +77,12 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.prayer {
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 10px #000000;
+	font-style:italic;;
+}
 
 @media (max-width: 767px) {
 	.site-container{
@@ -93,7 +99,7 @@ body {
 
 	html {
 		height:100vh;
-	  background: url(../public/images/home-background.png) no-repeat center center fixed;
+	  background: url(../public/images/cabobackground.jpg) no-repeat center center fixed;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
