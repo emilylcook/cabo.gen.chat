@@ -121,7 +121,6 @@ h1#timeline{
 
       .timeline > li.timeline-inverted > .timeline-panel {
           float: right;
-        	text-shadow: 0 0 10px #000000;
       }
 
           .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -162,6 +161,10 @@ h1#timeline{
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+}
+
+.timeline-body{
+  text-shadow: 0 0 10px #000000;
 }
 
 .timeline-body a {
