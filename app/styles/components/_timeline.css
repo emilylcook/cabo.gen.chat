@@ -137,20 +137,13 @@ h1#timeline{
               right: auto;
           }
 
-.timeline-badge.send {
+.timeline-badge.camera {
     background-color: #2e6da4 !important;  /* blue */
 }
 
-.timeline-badge.plus {
-    background-color: #3f903f !important; /* green */
-}
 
-.timeline-badge.time {
+.timeline-badge.pencil {
     background-color: #f0ad4e !important; /* yellow */
-}
-
-.timeline-badge.minus {
-    background-color: #d9534f !important; /* red */
 }
 
 .timeline-title {
@@ -163,7 +156,7 @@ h1#timeline{
     margin-bottom: 0;
 }
 
-.timeline-body{
+.timeline-panel{
   text-shadow: 0 0 10px #000000;
 }
 

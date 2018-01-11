@@ -35,11 +35,11 @@ class TimelineEvent extends Component {
     if (this.props.type === 'add') {
       iconType = 'plus'
     } else if (this.props.type === 'celebrate') {
-      iconType = 'send'
+      iconType = 'camera'
     } else if (this.props.type === 'removal') {
       iconType = 'minus'
     } else if (this.props.type === 'memory') {
-      iconType = 'time'
+      iconType = 'pencil'
     }
 
     let imageDiv = ''

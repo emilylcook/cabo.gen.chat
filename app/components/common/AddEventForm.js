@@ -16,7 +16,7 @@ class AddEventForm extends Component {
     this._changeDate = this._changeDate.bind(this)
     this._changeImage = this._changeImage.bind(this)
     this._changeDescription = this._changeDescription.bind(this)
-    this._changeType = this._changeType.bind(this)
+  //  this._changeType = this._changeType.bind(this)
   }
   render () {
     const {addEventError} = this.props
@@ -39,25 +39,6 @@ class AddEventForm extends Component {
             autoCorrect='off'
             autoCapitalize='off'
             spellCheck='false' />
-        </div>
-        <div className='col-xs-12 col-md-push-2 col-md-8 form-container'>
-          <label className='col-xs-12 col-md-12 label' htmlFor='title'>
-            Type*
-          </label>
-          <select
-            className='field'
-            type='text'
-            required='true'
-            id='username'
-            value={this.props.data.type}
-            onChange={this._changeType}
-            defaultValue='memory'
-           >
-            <option value='memory'>Memory</option>
-            <option value='celebrate'>Celebration</option>
-            <option value='add'>New Member</option>
-            <option value='removal'>BOYBYE</option>
-          </select>
         </div>
         <div className='col-xs-12 col-md-push-2 col-md-8 form-container'>
           <label className='col-xs-12 col-md-12 label' htmlFor='date'>
@@ -134,10 +115,6 @@ class AddEventForm extends Component {
     }
 
     reader.readAsDataURL(file)
-  }
-
-  _changeType (event) {
-    this.setState({type: event.target.value})
   }
 
   _changeDescription (event) {

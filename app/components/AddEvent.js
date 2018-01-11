@@ -50,11 +50,17 @@ class AddEvent extends Component {
         // Handle successful uploads on complete
         // For instance, get the download URL: https://firebasestorage.googleapis.com/...
 
+        let t = 'celebrate'
+
+        if (user.email == 'emilycookx@gmail.com') {
+          t = 'memory'
+        }
+
         var obj = {
           Title: form.title,
           Date: form.date,
           DateTimestamp: new Date(form.date).getTime(),
-          Type: form.type,
+          Type: t,
           ImageName: imageName,
           Description: form.description !== undefined ? form.description : '',
           CreatedBy: user.email,
